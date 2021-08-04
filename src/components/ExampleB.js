@@ -46,7 +46,7 @@ class ExampleB extends Component {
                         })}
                     </div>
                     <div>Paper Data:</div>
-                    <div>Paper doi: {doiValue}</div>
+                    <div>Paper doi: <a href={`https://doi.org/${doiValue}`}>{doiValue}</a></div>
                 </div>
             );
         }
